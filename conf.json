@@ -1,0 +1,10 @@
+{
+	"src-package": "com.github.aesteve.vertx.nubes.examples.feeds",
+	"templates": ["hbs"],
+	"services": {
+		"mongo": "com.github.aesteve.vertx.nubes.examples.feeds.services.MongoDAO",
+		"redis": "com.github.aesteve.vertx.nubes.examples.feeds.services.RedisDAO"
+	},
+	"redis.port": 8888,
+	"mongo.port": 8889
+}
